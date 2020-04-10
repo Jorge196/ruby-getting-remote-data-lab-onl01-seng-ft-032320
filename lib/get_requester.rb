@@ -4,8 +4,10 @@ require 'open-uri'
 
 class GetRequester
 
+  
+
   def intitialize
-    
+
   end
 
   def get_response_body
@@ -14,3 +16,10 @@ class GetRequester
 
 
 end
+
+
+# def get_programs
+#     uri = URI.parse(URL)
+#     response = Net::HTTP.get_response(uri)
+#     response.body
+#   end

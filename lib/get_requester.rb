@@ -4,10 +4,9 @@ require 'open-uri'
 
 class GetRequester
 
-  
 
-  def intitialize
 
+  def initialize(name)
   end
 
   def get_response_body
